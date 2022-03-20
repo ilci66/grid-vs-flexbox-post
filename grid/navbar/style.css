@@ -1,0 +1,35 @@
+body {
+    background: #227c9dff;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background: white;
+    max-width: 960px;
+    height: 100px;
+}
+.brand-logo {
+    height: 100px;
+}
+.navbar-items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 550px;
+}
+.navbar-item {
+    font-size: 2rem;
+    margin: 10px;
+}
+.navbar-item:hover {
+    cursor: pointer;
+}
+h1 {
+    font-size: 3rem;    
+    text-align: center;
+    color: aliceblue;
+}
