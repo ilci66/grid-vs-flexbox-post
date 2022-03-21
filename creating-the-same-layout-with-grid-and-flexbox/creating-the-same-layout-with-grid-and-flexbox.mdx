@@ -2,13 +2,32 @@
 title: Creating the Same Layout With Grid and Flexbox
 slug: creating-the-same-layout-with-grid-and-flexbox
 coverImage : ./portfolio-4.jpg
-language: fr
-coverImageAltText : une message en français
-excerpt: Ducimus unde itaque, explicabo voluptate in autem amet veritatis nemo at esse. Consequuntur voluptate cupiditate quod aliquam. Repudiandae qui sed nobis aspernatur enim nisi vitae veritatis
+language: en
+coverImageAltText : grid vs flexbox post cover image
+excerpt: Creating a layout that just works can be tricky at times. But it is possible to create a functionally similar layouts using both grid an flexbox. Here in this post I created 3 different layouts as examples.
 published: true
-date: 2022-02-25
-updatedAt: 2022-02-25
+date: 2022-03-21
+updatedAt: 2022-03-21
 author: Ilker Akbiyik
-tag: apprentissage
+tag: tech
 favourite: true
 ---
+## Box Example 
+
+In the box example with the help of span values that is provided by the grid layout adjusting sizes is very easy. Grid gap allows us to keep a consistent distance between grid items. The distance I created between the items in the flexbox example is calculated by dividing the value (in percentage) that wasn't used by the items by four. For top, bottom, right and left margins. Grid gap appears a lot more useful when it comes to the distance between items. Going back to change simple detail with the distances can become a nightmare on a bigger project if you are using flexbox.
+Also using the empty spaces that will appear after giving your items certain sizes can be easily dealt with in grid layout. Simply choose the option "grid-auto-flow: dense;" and grid will fillout those spots automatically with the items that fit. The alternative to this in flexbox (that I could find) is the "order" property. With the help of order prperty you can fill up the empty spots that might appear in your layout but I find this method to be very error prone. Plus you have to work on your layout for different sizes and change the order as well.
+
+## Navigation Bar
+
+The navbar example is a very simple one but it demonstrates where to use flexbox effectively. 
+Creating the navbar with grid was simple enough but I had to set a certain height property for the logo image. From what I have learned so far that's not something we wanna do very often. When it comes to responsive layouts setting certain widths and heights scare me a little bit. So I avoid setting height values as much as possible. Rest of the layout was wairly straight forward and too keep my logo and a tags seperated I used "justify-content: space-between". 
+With flexbox first of all I didn't have to set a height for my logo, which makes me sleep better at night. Keeping the a tags on ht eopposite site of my logo was possible with the help of "margin-left: auto". The same trick can be used to keep your footer at the bottom of your page. Give you are body a flex value and boom you made it.
+
+## Page Layout
+
+In the page layout part I wanted to create a very simple looking blog page. Odds are you either made one or are going make one really soon. And if you don't have one definitely get started. I digress, leeping a consistent layout with flexbox felt like a nightmare and I wouldn't recommend trying it at all. Before I started making this post I decided to keep a consistent DOM structure for both flexbox and grid. But I had to cheat a little to make the flexbox layout work. Even with the help of order propery keeping multiple rows of very differently sized elements is just too hard and definitely not worth the struggle. 
+Using grid, after struggling with flexbox, to create the same layout felt like a breeze. First of all the ability to stretch grid items in different grid boxes makes life a lot easier. Is your blog post too long, no problem give it a "grid-row: span 2" or 3, or 5, all up to you. In the sides you can display author info or table of contents in appropriately sized boxes.
+
+## Conclusion & My Thoughts
+
+I would definitely suggest using grid for larger elemetns or for a page. For smaller componenets like navbar or a div object that contians a bunch of image and some p tags you can go with flexbox. In almost every sceneraio I can think of we can use grid. However knowing what flexbox can do for your project helps you use css to the fullest.
