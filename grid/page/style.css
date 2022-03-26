@@ -4,10 +4,7 @@ body {
     background: #023047ff;
     color: whitesmoke;
 }
-a {
-    color: whitesmoke;
-    font-size: 1.6rem;
-}
+a { color: whitesmoke; font-size: 1.6rem; }
 li {
     list-style: none;
     padding: none;
@@ -19,9 +16,7 @@ li {
     grid-gap: 30px;
     justify-items: center;
 }
-.page-title {
-    grid-column: 1 / -1;
-}
+.page-title { grid-column: 1 / -1; }
 .left-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -36,33 +31,19 @@ li {
     border-radius: 50%;
     max-width: 100px;
 }
-.author-container {
-    padding: 5px;
-}
-.author-info {
-    background: red;
-}
+.author-container {  padding: 5px; }
+.author-info { background: red; }
 .deal-container {
     grid-column: 1/ 2;
     grid-row: 3 / 4;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
 }
-.deal-title {
-    font-size: 2.4rem;
-}
-.blog-container {
-    grid-row: span 3;
-}
-.blog-title {
-    font-size: 3rem;
-}
-.blog-container > h3 {
-    font-size: 2rem;
-}
-.blog-container > p {
-    font-size: 1.4rem;
-}
+.deal-title { font-size: 2.4rem; }
+.blog-container { grid-row: span 3; }
+.blog-title { font-size: 3rem; }
+.blog-container > h3 {  font-size: 2rem; }
+.blog-container > p { font-size: 1.4rem; }
 .right-container {
     padding: 20px;
     background: rgba(0,0,0,.25);

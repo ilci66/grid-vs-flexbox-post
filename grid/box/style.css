@@ -1,6 +1,4 @@
-body{
-    background: #3b094b;
-}
+body{ background: #3b094b; }
 .item-box{
     min-height: 50px;
     display: grid;
@@ -35,9 +33,5 @@ h2{
     grid-auto-flow: dense;
     max-width: 960px;
 }
-.wide-2 {
-    grid-column: span 2;
-}
-.wide-3 {
-    grid-column: span 3;
-}
+.wide-2 { grid-column: span 2; }
+.wide-3 { grid-column: span 3; }

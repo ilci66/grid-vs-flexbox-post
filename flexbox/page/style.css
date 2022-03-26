@@ -38,27 +38,13 @@ li {
     border-radius: 50%;
     max-width: 100px;
 }
-.author-container {
-    padding: 5px;
-}
-.deal-container {
-    background: rgba(255, 255, 255, 0.1);
-}
-.deal-title {
-    font-size: 2.4rem;
-}
-.blog-container {
-    width: 48%;
-}
-.blog-title {
-    font-size: 3rem;
-}
-.blog-container > h3 {
-    font-size: 2rem;
-}
-.blog-container > p {
-    font-size: 1.4rem;
-}
+.author-container { padding: 5px; }
+.deal-container { background: rgba(255, 255, 255, 0.1); }
+.deal-title { font-size: 2.4rem; }
+.blog-container { width: 48%; }
+.blog-title { font-size: 3rem; }
+.blog-container > h3 { font-size: 2rem; }
+.blog-container > p { font-size: 1.4rem; }
 .right-container {
     height: 300px;
     width: 20%;

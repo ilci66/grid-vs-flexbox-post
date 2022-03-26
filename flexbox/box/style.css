@@ -19,62 +19,23 @@ h2{
     padding: 0;
     color: #fae1dd;
 }
-.item-1{
-    background: #8cdeff;
-}
-.item-2{
-    background: #005f73;
-}
-.item-3{
-    background: #0a9396;
-    order: 2;
-}
-.item-4{
-    background: #94d2bd;
-    order:4;
-}
-.item-5{
-    background: #e9d8a6;
-    order:5;
-}
-.item-6{
-    background: #ee9b00;
-    order: 3;
-}
-.item-7{
-    background: #ca6702;
-    order:7;
-}
-.item-8{
-    background: #bb3e03;
-    order:4;
-}
-.item-9{
-    background: #ae2012;
-    order:9;
-}
-.item-10{
-    background: #9b2226;
-    order:10;
-}
-.item-11{
-    background: #fae1dd;
-    order:11;
-}
-.item-12{
-    background: #ffd7ba;
-    order:12;
-}
-
+.item-1{ background: #8cdeff;}
+.item-2{ background: #005f73; }
+.item-3{ background: #0a9396; order: 2; }
+.item-4{ background: #94d2bd; order:4; }
+.item-5{ background: #e9d8a6; order:5; }
+.item-6{ background: #ee9b00; order:3; }
+.item-7{ background: #ca6702; order:7; }
+.item-8{ background: #bb3e03; order:4; }
+.item-9{ background: #ae2012; order:9; }
+.item-10{ background: #9b2226; order:10; }
+.item-11{ background: #fae1dd; order:11; }
+.item-12{ background: #ffd7ba; order:12; }
 .flexbox-container{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     max-width: 960px;
 }
-.wide-2 {
-    width: 66%;
-}
-.wide-3 {
-    width: 100%;
-}
+.wide-2 { width: 66%; }
+.wide-3 { width: 100%; }

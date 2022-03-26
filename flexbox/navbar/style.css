@@ -3,7 +3,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .navbar {
     margin: 0 auto;
     display: flex;
@@ -12,18 +11,12 @@ body {
     max-width: 960px;
     height: 100px;
 }
-.navbar-items {
-    list-style: none;
-    margin-left: auto; 
-    display: flex;
-}
-.navbar-item {
-    font-size: 2rem;
-    margin: 10px;
-}
-.navbar-item:hover {
-    cursor: pointer;
-}
+.navbar-items { 
+    list-style: none; 
+    margin-left: auto;  
+    display: flex; }
+.navbar-item { font-size: 2rem; margin: 10px; }
+.navbar-item:hover { cursor: pointer; }
 h1 {
     font-size: 3rem;    
     text-align: center;
